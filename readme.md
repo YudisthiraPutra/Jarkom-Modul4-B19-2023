@@ -8,8 +8,11 @@ Anggota Kelompok
 > Pada praktikum kali ini, kami membagi pengerjaan menjadi metode CIDR - GNS dan VLSM - CPT.
 
 ## VLSM
+![VSLM TREE](https://github.com/YudisthiraPutra/Jarkom-Modul4-B19-2023/assets/93124693/12ee57c4-0b34-495f-a02a-cbb632f8ee55)
 
 ## CIDR
+![CIDR TREE](https://github.com/YudisthiraPutra/Jarkom-Modul4-B19-2023/assets/93124693/1e67590b-cb5c-473d-8439-c8b6d86b5801)
+
 Langkah pertama dari metode ini adalah melakukan subnetting.
 
 #### Penggabungan Pertama
@@ -107,6 +110,74 @@ route add -net 10.19.0.0 netmask 255.255.252.0 gw 10.19.8.2
 route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.19.8.1
 route add -net 10.19.0.0 netmask 255.255.252.0 gw 10.19.4.2
 ```
+
+## VLSM CPT
+berikut topologi yang dibuat
+
+![image](https://github.com/YudisthiraPutra/Jarkom-Modul4-B19-2023/assets/93124693/a695dc97-a549-4b9d-aef6-51633f1149e6)
+
+lalu berikut meruakan VLSM TREE
+
+![VSLM TREE](https://github.com/YudisthiraPutra/Jarkom-Modul4-B19-2023/assets/93124693/ca6a9c4a-87f1-4be7-a06d-6f9f695991ca)
+
+berikut route persubnet
+
+![image](https://github.com/YudisthiraPutra/Jarkom-Modul4-B19-2023/assets/93124693/ed3e48c5-c0ef-4214-bf42-eda1bffc15ac)
+
+kemudian dibawah ini merupakan pembagian ip
+
+![image](https://github.com/YudisthiraPutra/Jarkom-Modul4-B19-2023/assets/93124693/a7bb3f3d-60a2-4425-95b5-54763afd4c9a)
+
+lalu berikut hasil routing
+
+Aura
+
+![image](https://github.com/YudisthiraPutra/Jarkom-Modul4-B19-2023/assets/93124693/8ceed32b-a56d-4c72-b73f-8c230f2d28d7)
+
+![image](https://github.com/YudisthiraPutra/Jarkom-Modul4-B19-2023/assets/93124693/5378cbd0-ca48-4422-9ab4-2e162139634c)
+
+Denken
+
+![image](https://github.com/YudisthiraPutra/Jarkom-Modul4-B19-2023/assets/93124693/05aea454-2639-44e9-ae87-d2b08a0eb76b)
+
+Frieren
+
+![image](https://github.com/YudisthiraPutra/Jarkom-Modul4-B19-2023/assets/93124693/4798c863-8352-4e65-ac4d-72c0d1b14271)
+
+Fern
+
+![image](https://github.com/YudisthiraPutra/Jarkom-Modul4-B19-2023/assets/93124693/1ca1666e-483b-49fb-9ed8-7403ed6aa0d6)
+
+Flamme
+
+![image](https://github.com/YudisthiraPutra/Jarkom-Modul4-B19-2023/assets/93124693/3c7fce6a-cf52-4363-b6c3-276351f200fd)
+
+Himmel
+
+![image](https://github.com/YudisthiraPutra/Jarkom-Modul4-B19-2023/assets/93124693/61978ae7-da4e-4c6d-811f-4c5527fa9aad)
+
+Eisen
+
+![image](https://github.com/YudisthiraPutra/Jarkom-Modul4-B19-2023/assets/93124693/deb9c5e1-e0c8-41bc-812d-82e7fc352125)
+
+Lugner
+
+![image](https://github.com/YudisthiraPutra/Jarkom-Modul4-B19-2023/assets/93124693/10c12039-5912-4a71-b31d-fc21b8d5f0bf)
+
+Linie
+
+![image](https://github.com/YudisthiraPutra/Jarkom-Modul4-B19-2023/assets/93124693/452fd552-4469-4ecc-8907-a4275c041ead)
+
+Lawine
+
+![image](https://github.com/YudisthiraPutra/Jarkom-Modul4-B19-2023/assets/93124693/48ea1120-2558-4e0c-99e2-d139889e56a1)
+
+Haiter
+
+![image](https://github.com/YudisthiraPutra/Jarkom-Modul4-B19-2023/assets/93124693/909ef740-78cb-432c-a560-6070001cce14)
+
+
+
 
 
 
